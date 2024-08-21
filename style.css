@@ -51,3 +51,22 @@
 .bttn{
     margin-top: 10%;
 }
+
+@media (max-width: 850px){
+    .text{
+        margin-left: 0;
+    }
+    img{
+        width:150px;
+        height: auto;
+    }
+    .bttn{
+        margin-top: 0%;
+    }
+    .currency{
+        font-size: 10px;
+    }
+    .main{
+        margin: 0 0;
+    }
+}
