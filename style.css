@@ -69,4 +69,48 @@
     .main{
         margin: 0 0;
     }
+    .country-body{
+        margin: 0;
+    }
+    .country-body img{
+        width:80px;
+        height: 80px;
+    }
+    .country-text p {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 336px){
+    .text{
+        margin-left: 0;
+        padding-top:0 ;
+    }
+    img{
+        width:80px;
+        height: auto;
+    }
+    .bttn{
+        margin-top: 0%;
+    }
+    .currency{
+        font-size: 10px;
+    }
+    .main{
+        margin: 0 0;
+    }
+    button{
+        /* font-size:10px; */
+        height: 25px;
+    }
+    .country-body{
+        margin: 0;
+    }
+    .country-body img{
+        width:80px;
+        height: 80px;
+    }
+    .country-text p {
+        font-size: 10px;
+    }
 }
