@@ -4,7 +4,6 @@ var ourRequest = new XMLHttpRequest();
 ourRequest.open('GET', 'https://restcountries.com/v3.1/all');
 ourRequest.onload = function(){
     var ourData = JSON.parse(ourRequest.responseText);
-    console.log(ourData);
 
 
 $("#search-bar").on("click",function(){
@@ -12,7 +11,6 @@ $("#search-bar").on("click",function(){
   var countryCards = $(".country-box");
 
   $.each(countryCards, function(index , card){
-    console.log(card.id.includes(value));
     if(card.id.includes(value)){
       card.style.display = "";
     }
